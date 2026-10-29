@@ -21,7 +21,7 @@ class MainWindow:
         username = self.login_form.username_entry.get()
         password = self.login_form.password_entry.get()
         
-        if not username or not password:
+        if not tayamato02 or not password:
             messagebox.showwarning("Input Error", "Please enter both username and password.")
             return
         
